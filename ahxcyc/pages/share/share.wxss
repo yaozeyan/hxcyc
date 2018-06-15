@@ -1,0 +1,17 @@
+/* pages/share/share.wxss */
+.con {position: relative}
+.bg1 {width: 750rpx;height:426rpx;background: url(http://7jing.com/2018/yzy/cf/1.jpg) no-repeat top center;background-size:750rpx 426rpx;}
+.bg2 {width: 750rpx;height: 591rpx;background: url(http://7jing.com/2018/yzy/cf/2.jpg) no-repeat top center;background-size:750rpx 591rpx;}
+.bg3 {width: 750rpx;height:453rpx;background: url(http://7jing.com/2018/yzy/cf/3.jpg) no-repeat top center;background-size:750rpx 453rpx;}
+.title1 {width: 152rpx;height: 44rpx;background: url(http://7jing.com/2018/yzy/cf/title2.png) no-repeat;background-size:152rpx 44rpx; margin: 0rpx auto 0rpx}
+.ti {width: 524rpx;height: 360rpx;margin: 26rpx auto 0rpx;background-size:524rpx 410rpx;overflow: hidden;position: relative;}
+.center {width: 600rpx;height: 100rpx;margin: 19rpx auto 0rpx}
+.lbtn {width: 297rpx;height: 100rpx;background: url(http://7jing.com/2018/yzy/cf/btn-spr.png) no-repeat 0rpx -308rpx;background-size:297rpx 410rpx;float: left }
+.rbtn {width: 297rpx;height: 100rpx;background: url(http://7jing.com/2018/yzy/cf/btn-spr.png) no-repeat -0rpx -102rpx;background-size:297rpx 410rpx;float: right;position: relative; }
+.img {width: 311rpx;height: 320rpx;margin: 12rpx auto 0rpx;display: block}
+.txt {width: 90rpx;height: 22rpx;font-size: 16rpx;color: #ffd37e;margin: 0rpx auto 0rpx;display: block;position: absolute;left: 100rpx;bottom: 40rpx; text-align: right;}
+.txt1 {width: 90rpx;height: 22rpx;font-size: 16rpx;color: #ffd37e;margin: 0rpx auto 0rpx;display: block;position: absolute;left: 100rpx;bottom: 56rpx; text-align: right;}
+ .button {width: 297rpx;height: 100rpx;position: absolute;opacity: 0;}
+
+ .share {width: 248rpx;height: 89rpx;position: absolute;left: 142rpx;top: 342rpx;opacity:0;}
+ .ce {width: 297rpx;height: 100rpx;background: url(http://7jing.com/2018/yzy/cf/ce.png) no-repeat;margin: 0rpx auto 0rpx;background-size:297rpx 100rpx; }

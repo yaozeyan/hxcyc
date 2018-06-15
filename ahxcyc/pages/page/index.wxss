@@ -1,0 +1,8 @@
+/* pages/page/index.wxss */
+.bg1 {width: 750rpx;height:426rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/1.jpg) no-repeat top center;background-size:750rpx 426rpx;}
+.bg2 {width: 750rpx;height: 591rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/2.jpg) no-repeat top center;background-size:750rpx 591rpx;}
+.bg3 {width: 750rpx;height:453rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/3.jpg) no-repeat top center;background-size:750rpx 453rpx;}
+.title1 {width: 190rpx;height: 44rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/title1.png) no-repeat;background-size:190rpx 44rpx; margin: 0rpx auto 0rpx}
+.ti {width: 642rpx;height: 492rpx;background:url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/ti.jpg) no-repeat;margin: 28rpx auto 0rpx;background-size:642rpx 492rpx; overflow: hidden}
+.matter {width: 550rpx;height: auto;font-size: 28rpx;color: #ffd37e;margin: 66rpx auto 0rpx}
+.bac {width: 590rpx;height: 53rpx;margin: 50rpx auto 0rpx;text-indent: 16rpx;font-size: 24rpx; line-height: 53rpx;}

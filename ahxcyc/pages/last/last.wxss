@@ -1,0 +1,22 @@
+/* pages/last/last.wxss */
+.con {position:fixed;top: 0;}
+.bg1 {width: 750rpx;height:426rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/1.jpg) no-repeat top center;background-size:750rpx 426rpx;}
+.bg2 {width: 750rpx;height: 591rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/2.jpg) no-repeat top center;background-size:750rpx 591rpx;}
+.bg3 {width: 750rpx;height:453rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/3.jpg) no-repeat top center;background-size:750rpx 453rpx;}
+.title1 {width: 152rpx;height: 44rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/title2.png) no-repeat;background-size:152rpx 44rpx; margin: 0rpx auto 0rpx}
+.ti {width: 524rpx;height: 360rpx;margin: 26rpx auto 0rpx;background-size:524rpx 410rpx;overflow: hidden;position: relative;}
+.canvas {margin: 26rpx auto 0rpx;width: 70rpx;height: 20rpx;z-index: 1;position: absolute;left: 197rpx;top: 860rpx;}
+.canvasA {width: 750rpx;height: 1767rpx;position: fixed;top: -4000rpx;left: 0rpx;}
+.center {width: 600rpx;height: 100rpx;margin: 19rpx auto 0rpx}
+.lbtn {width: 297rpx;height: 100rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/btn-spr.png) no-repeat 0rpx -308rpx;background-size:297rpx 410rpx;float: left }
+.rbtn {width: 297rpx;height: 100rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/btn-spr.png) no-repeat -0rpx -102rpx;background-size:297rpx 410rpx;float: right;position: relative; }
+.img {width: 311rpx;height: 320rpx;margin: 12rpx auto 0rpx;display: block}
+.txt {width: 90rpx;height: 22rpx;font-size: 16rpx;color: #ffd37e;margin: 0rpx auto 0rpx;display: block;position: absolute;left: 100rpx;bottom: 44rpx; text-align: right;}
+.txt1 {width: 90rpx;height: 22rpx;font-size: 16rpx;color: #ffd37e;margin: 0rpx auto 0rpx;display: block;position: absolute;left: 100rpx;bottom: 56rpx; text-align: right;}
+ .button {width: 297rpx;height: 100rpx;position: absolute;opacity: 0;}
+
+ .body {width: 785rpx;height: 1470rpx;background: rgba(0, 0, 0, .5);position: absolute;left: 0rpx;top: 0rpx;z-index: 999;} 
+ .dialog {width: 539rpx;height: 479rpx;background: url(https://game.gtimg.cn/images/cf/act/a20180503minapp/img/dialog.png) no-repeat;position: absolute;margin: auto;left: 0rem;right: 0rem;top: 0rem;bottom: 0rem;background-size:539rpx 479rpx;z-index: 999;}
+ .download {width: 248rpx;height: 89rpx;position: absolute;left: 142rpx;top: 148rpx;opacity:0;}
+ .share {width: 248rpx;height: 89rpx;position: absolute;left: 142rpx;top: 342rpx;opacity:0;}
+ .close {width: 54rpx;height: 54rpx;position: absolute;right: 12rpx;top: 4rpx;opacity: 0;}

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='bg1'></view>
+  <view class='bg2'>
+     <view class='title'></view>
+     <input class="weui-input" maxlength="5" bindinput="bindKeyInput"  placeholder="最多输入五个汉字" placeholder-style='color:#969696;font-weight:bold;font-size:30rpx;'/>
+     <view class='btn' catchtap='touch'></view>
+  </view>
+  <view class='bg3'></view>
+</view>

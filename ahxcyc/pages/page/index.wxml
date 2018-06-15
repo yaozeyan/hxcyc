@@ -1,0 +1,14 @@
+<!--pages/page/index.wxml-->
+<view class='bg1'></view>
+  <view class='bg2'>
+   <view class='title1'></view>
+   <view class='ti'>
+      <view class='matter' wx:if="{{ch}}">{{problemIndex+1}}.{{problemData[problemIndex].text}}</view>
+      <view class='matter' wx:else>{{problemIndex+1}}.{{problemDataA[problemIndex].text}}</view>
+      <view class='bac' style='background-color:{{bgcolora}};color:{{fcolora}}' data-type="a" catchtap='change' wx:if="{{ch}}">A：{{problemData[problemIndex].a}} </view>
+       <view class='bac' style='background-color:{{bgcolora}};color:{{fcolora}}' data-type="a" catchtap='change' wx:else>A：{{problemDataA[problemIndex].a}} </view>
+      <view class='bac' style='background-color:{{bgcolorb}};color:{{fcolorb}}' data-type="b" catchtap='change' wx:if="{{ch}}">B：{{problemData[problemIndex].b}} </view>
+      <view class='bac' style='background-color:{{bgcolorb}};color:{{fcolorb}}' data-type="b" catchtap='change' wx:else>B：{{problemDataA[problemIndex].b}} </view>
+   </view>
+   </view>
+  <view class='bg3'></view>

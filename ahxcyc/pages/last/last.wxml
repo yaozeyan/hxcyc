@@ -1,0 +1,30 @@
+<!--pages/last/last.wxml-->
+<view class='con'>
+  
+<view class='bg1'></view>
+  <view class='bg2'>
+   <view class='title1'></view>
+    <view class='ti'>
+      <image src='{{url}}' class='img'></image>
+      <text class='txt1' wx:if="{{pos}}">{{name}}</text> 
+      <text class='txt' wx:else>{{name}}</text> 
+   </view> 
+     <!-- <canvas canvas-id="shareCanvas" class='canvas' style='display:{{op}}'></canvas>   -->
+   <view class='center'>
+    <view class='lbtn'></view>
+    <view class='rbtn' bindtap='dialog'>
+       <!-- <button class='button' open-type="share"></button>  -->
+    </view>
+  </view>
+   </view>
+  <view class='bg3'></view>
+  
+</view>
+<view class='body' wx:if="{{dialog}}">
+      <view class='dialog'>
+        <button class='download' bindtap='saveImageToPhotosAlbum'></button>
+        <button class='share' open-type="share"></button>
+        <button class='close' bindtap='close'></button>
+      </view>
+  </view>
+   <canvas canvas-id="share" class='canvasA'></canvas>
